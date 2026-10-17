@@ -25,7 +25,7 @@ class PostCreateConroller extends Controller
 		$post->save();
         $users = User::all();
 		
-		return redirect('/postcreate');
+		return redirect('/postlist');
 	}
    
 }
